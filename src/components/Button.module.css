@@ -1,31 +1,35 @@
-.btn{
-    display: flex;
-    align-items: center;
-    padding: 1rem 2rem;
-    gap: 1rem;
-    text-decoration: none;
-    color: #eee;
-    border-radius: .5rem;
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  text-decoration: none;
+  color: #ced4da;
 
-    transition: all .3s;
+  border-radius: 0.5rem;
+
+  transition: all 0.3s;
 }
 
-.btn.primary:link, .btn.primary:visited{
-    background-color: #40c057;
+.btn.primary:link,
+.btn.primary:visited {
+  background-color: var(--color-primary-dark);
 }
 
-.btn.primary:active,.btn.primary:hover{
-    background-color: #2f9e44;
+.btn.primary:active,
+.btn.primary:hover {
+  background-color: var(--color-primary);
 }
 
-.btn.secondary:link, .btn.secondary:visited{
-    background-color: transparent;
-    border: 2px solid #37b24d;
-
+.btn.secondary:link,
+.btn.secondary:visited {
+  background-color: transparent;
+  border: 2px solid var(--color-primary-light);
 }
 
-.btn.secondary:active,.btn.secondary:hover{
-    background-color: #2f9e44;
+.btn.secondary:active,
+.btn.secondary:hover {
+  border: 2px solid var(--color-primary-dark);
+
+  background-color: var(--color-primary-dark);
 }
-
-

@@ -1,6 +1,6 @@
 .options{
     display: flex;
-    background-color: #333;
+    background: var(--color-primary);
     gap: 1rem;
     padding: .5rem;
     margin-top: 2.4rem;

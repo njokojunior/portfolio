@@ -1,8 +1,8 @@
 .dashboard{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr;
-    background-color: #000;
+    background-color: var(--bg-color);
     height: 100vh;
     overflow: hidden;
 }
@@ -11,5 +11,13 @@
     padding: 7rem;
     height: 100%;
     overflow-y: scroll;
+}
+
+@media (min-width: 102.4rem){
+    .main{
+        padding-left:25rem;
+        padding-right:25rem;
+
+    }    
 }
 

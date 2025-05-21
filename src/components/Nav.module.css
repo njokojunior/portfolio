@@ -1,5 +1,6 @@
 .nav{
     height: 100%;
     border-right: 2px solid #141417;
+    background: var(--bg-color-nav);
 }
 

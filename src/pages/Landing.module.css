@@ -3,7 +3,8 @@
 .header {
     height: 50vh;
     padding: 3rem 4rem;
-    background: rgba(21, 170, 191, 0.3);
+    background: var(--bg-color-nav);
+    border: 3px solid var(--color-secondary-light);
     align-items: center;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -13,14 +14,11 @@
   }
   
 
-.headerContent {
-  color: #eee;
-}
 
 .headerContent h1{
     /* color: #3bc9db; */
 
-    background:  linear-gradient(to right bottom, #b2f2bb, #37b24d);
+    background: var(--gradient-heading);
     background-clip: inherit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -31,7 +29,7 @@
 
 
 .headerContent h2{
-    color: #c5f6fa;
+    color: var(--heading-secondary-color);
     font-size: 3.2rem;
     margin-top: 1rem;
 }
@@ -46,7 +44,7 @@
     width: 250px;
     height: auto;
     border-radius: 50%;
-    border: 3px solid #000;
+    border: 3px solid var(--color-primary-light);
 }
 
 .buttonBox{

@@ -1,0 +1,12 @@
+.container{
+    height: 100%;
+    border: 2px solid red;
+
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+
+    font-size: 5.2rem;
+    color: aqua;
+}
+

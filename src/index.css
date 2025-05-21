@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root{
+  --color-primary:#228be6 ;
+  --color-primary-light:#74c0fc ;
+  --color-primary-dark: #1864ab;
+  --color-secondary: #be4bdb;
+  --color-secondary-light: #e599f7;
+  --color-secondary-dark: #9c36b5;
+
+  --bg-color: #000;
+
+  --heading-secondary-color: #c5f6fa;
+  /* --gradient-heading:  linear-gradient(to right bottom, #b2f2bb, #37b24d); */
+  --gradient-heading:  linear-gradient(to right bottom, #f3d9fa, #cc5de8);
+  --bg-color-nav: linear-gradient(to top ,#9c36b5, #1864ab);
+}
+
+
 *,*::before,*::after{
   margin: 0;
   padding: 0;

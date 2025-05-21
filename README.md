@@ -1,12 +1,52 @@
-# React + Vite
+# 🚀 Junior Njoko – DevOps Engineer & Cloud Architect Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built using **React** and **Vite**. It highlights my experience, projects, cloud certifications, and the DevOps and cloud architecture work I've done over the years.
 
-Currently, two official plugins are available:
+## 🔍 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+As a DevOps Engineer and Software Developer with 5+ years of experience, I specialize in:
 
-## Expanding the ESLint configuration
+- Infrastructure as Code (IaC)
+- CI/CD pipeline automation
+- Scalable and resilient cloud architecture
+- AWS, Kubernetes, and Terraform
+- Building high-availability systems with 99.9% uptime
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio presents my technical background, key projects, skills, and contributions to the tech ecosystem.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS
+- **Build Tool**: Vite
+- **Animations**: Framer Motion
+- **Hosting**: [e.g., Vercel / Netlify / GitHub Pages]
+- **Version Control**: Git & GitHub
+
+## 📂 Features
+
+- 🔧 **Skills Section** – Showcasing technical proficiencies
+- 💼 **Projects Section** – Highlighting real-world applications and cloud deployments
+- 🧠 **Architecture** – Visuals and writeups on scalable system designs
+- 🧪 **Metrics** – Stats like system uptime, certifications, and experience
+- 🧾 **Certifications** – Summary of cloud and DevOps certifications
+- 💬 **Testimonials** – Feedback and endorsements
+- 📬 **Contact Section** – For collaboration or hiring opportunities
+
+## 📸 Preview
+
+
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/your-portfolio.git
+
+# Navigate into the project directory
+cd your-portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev

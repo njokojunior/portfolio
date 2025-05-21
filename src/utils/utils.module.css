@@ -1,5 +1,5 @@
 :global(.headingPrimary) {
-  background: linear-gradient(to right bottom, #b2f2bb, #37b24d);
+  background:var(--gradient-heading);
   background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -15,13 +15,13 @@
 
 :global(.subTitle) {
   font-size: 2rem;
-  color: #868e96;
+  color: var(--heading-secondary-color);
 }
 
-:global(.subTitle) {
+:global(h4.subTitle) {
   font-size: 1.6rem;
   font-weight: normal;
-  color: #868e96;
+  color: var(--heading-secondary-color);
 }
 
 :global(.tags) {
