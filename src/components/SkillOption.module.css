@@ -1,0 +1,19 @@
+.btn{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}
+
+
+.btn:hover{
+    background-color: green;
+}
+
+.btnActive{
+    background-color: green;
+
+}
+

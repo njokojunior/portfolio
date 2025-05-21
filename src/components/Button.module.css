@@ -1,0 +1,31 @@
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    text-decoration: none;
+    color: #eee;
+    border-radius: .5rem;
+
+    transition: all .3s;
+}
+
+.btn.primary:link, .btn.primary:visited{
+    background-color: #40c057;
+}
+
+.btn.primary:active,.btn.primary:hover{
+    background-color: #2f9e44;
+}
+
+.btn.secondary:link, .btn.secondary:visited{
+    background-color: transparent;
+    border: 2px solid #37b24d;
+
+}
+
+.btn.secondary:active,.btn.secondary:hover{
+    background-color: #2f9e44;
+}
+
+

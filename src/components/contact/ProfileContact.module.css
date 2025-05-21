@@ -1,0 +1,12 @@
+.iconBox{
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.iconBox>ion-icon{
+    font-size: 3.5rem;
+    color: #8ce99a;
+
+}

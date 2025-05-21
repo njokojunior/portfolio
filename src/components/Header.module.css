@@ -1,0 +1,11 @@
+
+.header{
+    min-height: 70vh;
+    padding: 3rem 4rem;
+    background: linear-gradient(to right bottom,rgba(21, 170, 191),  rgba(21, 170, 191,.3)), url('src/assets/header-bg.avif');
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+

@@ -1,0 +1,43 @@
+.aboutContainer {
+  margin-top: 5.6rem;
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  grid-template-rows: 1fr;
+  gap: 2rem;
+}
+
+:global(.profile-description) :global(.inner-section > p) {
+  line-height: 1.7;
+  margin-top: 2rem;
+  padding-right: 2rem;
+}
+
+
+
+:global(.heading-details){
+    font-size: 3.5rem !important;
+
+}
+
+:global(.personalDetails){
+    height: 100%;
+}
+
+:global(.tags){
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutTags {
+  margin-top: 3.2rem;
+}
+
+.personalDetailsIcons{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 3.2rem;
+    gap: 2rem;
+
+    font-size: 2rem;
+}

@@ -1,0 +1,105 @@
+:global(.headingPrimary) {
+  background: linear-gradient(to right bottom, #b2f2bb, #37b24d);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+:global(h2.headingPrimary) {
+  font-size: 4.2rem;
+}
+
+:global(h3.headingPrimary) {
+  font-size: 3.2rem;
+}
+
+:global(.subTitle) {
+  font-size: 2rem;
+  color: #868e96;
+}
+
+:global(.subTitle) {
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #868e96;
+}
+
+:global(.tags) {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+:global(.tag) {
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+}
+
+:global(.border-section) {
+  position: relative;
+
+  border-radius: 1rem;
+  padding: 2px;
+  background: transparent;
+
+  z-index: 1;
+}
+
+:global(.border-section) :global(.inner-section) {
+  background-color: #000;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: relative;
+  z-index: 2; /* content above ::before */
+}
+
+:global(.border-section)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  background-image: conic-gradient(#e9fac8, #12b886, #bac8ff, #8ce99a);
+  border-radius: 1rem;
+}
+
+
+/* GRID */
+
+:global(.grid){
+  margin-top: 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  row-gap: 3rem;
+}
+
+:global(.grid-2){
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 1fr;
+
+  row-gap: 3rem;
+}
+
+
+
+:global(.grid)>div{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+:global(.grid)>div>h4{
+  font-size: 1.8rem;
+}
+
+
+:global(.grid) :global(.tags){
+  display: flex; 
+  gap: 1rem;   
+}

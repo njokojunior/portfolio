@@ -1,0 +1,42 @@
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2.4rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.box > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box > div > span:first-child {
+  font-size: 2rem;
+  color: #00b894;
+}
+
+.box > progress {
+  width: 100%;
+  height: 1.2rem;
+  appearance: none;
+}
+
+.box > progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.box > progress::-webkit-progress-value {
+  background-color: #00b894; /* Your fill color */
+  border-radius: 10px;
+}
+
+.box > progress::-moz-progress-bar {
+  background-color: #00b894;
+}

@@ -1,0 +1,29 @@
+.menuList {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 10px 50px 10px;
+
+  color: #757575;
+  border-bottom: 2px solid #141417;
+}
+
+.menuList li>a:link, .menuList li>a:visited{
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+
+  text-decoration: none;
+  color: inherit;
+
+  padding: 10px;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.menuList li>a:hover, .menuList li>a:active{
+  background-color: #37b24d;
+  color: #e3fafc;
+}
