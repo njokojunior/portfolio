@@ -8,8 +8,6 @@ const icons = [
   { icon: "briefcase-outline", text: "5+ Years of Experience" },
 ];
 
-<ion-icon name="person-circle-outline"></ion-icon>;
-
 function ProfileContact() {
     return (
       
