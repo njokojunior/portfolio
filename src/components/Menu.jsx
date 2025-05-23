@@ -60,6 +60,8 @@ function Menu() {
         link: "contact",
       },
     ];
+
+    
     return (
         <ul className={styles.menuList}>
             {menu.map(option => <MenuOption key={option.text} link={option.link} icon={option.icon} text={option.text}/>)}

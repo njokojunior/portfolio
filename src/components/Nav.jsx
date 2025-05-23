@@ -5,6 +5,7 @@ import styles from "./Nav.module.css";
 function Nav() {
   return (
     <nav className={styles.nav}>
+      <Logo />
       <Menu />
     </nav>
   );

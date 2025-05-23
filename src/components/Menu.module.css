@@ -31,7 +31,8 @@
   border-radius: 0.5rem;
 }
 
-.menuList li>a:hover, .menuList li>a:active{
+.menuList li>a:hover, .menuList li>a:active, .menuList li.active{
   background-color: #000;
   color: #e3fafc;
 }
+
