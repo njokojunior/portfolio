@@ -1,4 +1,5 @@
 import styles from "./Logo.module.css";
+import myImage from "./../assets/aude-profile.jpg";
 
 function Logo() {
   return (
@@ -9,11 +10,7 @@ function Logo() {
         className={styles.logoImg}
       />
 
-      <img
-        src="src/assets/aude-profile.jpg"
-        alt="young fair guy smilling"
-        className={styles.me}
-      />
+      <img src={myImage} alt="young fair guy smilling" className={styles.me} />
     </a>
   );
 }
