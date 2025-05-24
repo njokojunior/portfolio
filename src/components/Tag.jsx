@@ -1,10 +1,11 @@
-// import styles from './Tag.module.css'
-// import "../utils/utils.module.css";
 
-function Tag({children, color, bgColor}) {
-    return (
-        <div className='tag' style={{color: color, backgroundColor:bgColor}}>{children}</div>
-    )
+
+function Tag({ children, color = "indigo", bgColor = "#D0BFFF" }) {
+  return (
+    <div className="tag" style={{ color: color, backgroundColor: bgColor }}>
+      {children}
+    </div>
+  );
 }
 
 export default Tag;

@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-// import "../utils/utils.module.css";
+
 import Tag from "../components/Tag";
 import ProfileContact from "../components/contact/ProfileContact";
 
@@ -41,45 +41,27 @@ function About() {
             </p>
 
             <div className={`tags ${styles.aboutTags}`}>
-              <Tag color="indigo" bgColor="#D0BFFF">
-                React JS
-              </Tag>
+              <Tag>React JS</Tag>
 
-              <Tag color="indigo" bgColor="#D0BFFF">
-                Node JS
-              </Tag>
+              <Tag>Node JS</Tag>
 
-              <Tag color="indigo" bgColor="#D0BFFF">
-                Next JS
-              </Tag>
+              <Tag>Next JS</Tag>
 
-              <Tag color="indigo" bgColor="#D0BFFF">
-                Nest JS
-              </Tag>
+              <Tag>Nest JS</Tag>
 
-              <Tag color="indigo" bgColor="#D0BFFF">
-                MongoDB
-              </Tag>
+              <Tag>MongoDB</Tag>
 
-              <Tag color="indigo" bgColor="#D0BFFF">
-                SQL
-              </Tag>
+              <Tag>SQL</Tag>
 
-              <Tag color="indigo" bgColor="#D0BFFF">
-                Devops
-              </Tag>
+              <Tag>Devops</Tag>
 
               <Tag color="#f03e3e" bgColor="#ffc9c9">
                 Kubernetes
               </Tag>
 
-              <Tag color="indigo" bgColor="#D0BFFF">
-                Cloud architecture
-              </Tag>
+              <Tag>Cloud architecture</Tag>
 
-              <Tag color="indigo" bgColor="#D0BFFF">
-                Infrastructure as code
-              </Tag>
+              <Tag>Infrastructure as code</Tag>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
-import Logo from "./Logo";
-import Menu from "./Menu";
+import Logo from "./../components/Logo";
+import Menu from "../components/Menu";
 import styles from "./Nav.module.css";
 
 function Nav() {

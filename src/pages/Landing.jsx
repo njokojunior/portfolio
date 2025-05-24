@@ -1,6 +1,6 @@
 import myImage from "./../assets/aude-profile.jpg";
 import styles from "./Landing.module.css";
-import Button from "../components/Button";
+import Button from "../components/ui/Button";
 import Stat from "../components/Stat";
 
 const stats = [

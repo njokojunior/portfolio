@@ -1,9 +1,10 @@
 import styles from "./Logo.module.css";
 import myImage from "./../assets/aude-profile.jpg";
+import { Link } from "react-router-dom";
 
 function Logo() {
   return (
-    <a href="http://localhost:5173/" className={styles.logo}>
+    <Link to="/" className={styles.logo}>
       <img
         src="/logo-white.png"
         alt="audescript logo"
@@ -11,7 +12,7 @@ function Logo() {
       />
 
       <img src={myImage} alt="young fair guy smilling" className={styles.me} />
-    </a>
+    </Link>
   );
 }
 

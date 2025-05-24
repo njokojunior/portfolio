@@ -1,0 +1,11 @@
+.options{
+    display: flex;
+    background: var(--color-primary);
+    gap: 1rem;
+    padding: .5rem;
+    margin-top: 2.4rem;
+    border-radius: .5rem;
+
+    list-style: none;
+
+}

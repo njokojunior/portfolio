@@ -1,48 +1,37 @@
+import Tag from "../Tag";
 
-import Tag from "./Tag";
-
-function Frameworks() {
+function Databases() {
   return (
     <>
-      <h3 className="headingPrimary">Frameworks & Libraries</h3>
-      <p className="subTitle">
-        Development frameworks and libraries I work with
-      </p>
+      <h3 className="headingPrimary">Database Technologies</h3>
+      <p className="subTitle">Database systems and data storage solutions</p>
 
       <div className="grid">
         {/* CLOUD PLATEFORMS */}
         <div>
-          <h4>Frontend</h4>
-
+          <h4>Relational</h4>
           <div className="tags">
             <Tag color="blue" bgColor="white">
-              React.js
+              PostgreSQL
             </Tag>
             <Tag color="blue" bgColor="white">
-              Next.js
-            </Tag>
-
-            <Tag color="blue" bgColor="white">
-              Sass
+              MySQL
             </Tag>
             <Tag color="blue" bgColor="white">
-              Tailwind CSS
+              SQL Server
             </Tag>
           </div>
         </div>
 
         {/* INFRASTRUCTURE PLATEFORMS */}
         <div>
-          <h4>Backend</h4>
+          <h4>NoSQL</h4>
           <div className="tags">
             <Tag color="blue" bgColor="white">
-              Nest.js
+              MongoDB
             </Tag>
             <Tag color="blue" bgColor="white">
-              Node.js
-            </Tag>
-            <Tag color="blue" bgColor="white">
-              Express.js
+              Firebase
             </Tag>
           </div>
         </div>
@@ -68,4 +57,4 @@ function Frameworks() {
   );
 }
 
-export default Frameworks;
+export default Databases;
