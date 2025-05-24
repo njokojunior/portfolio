@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import "../utils/utils.module.css";
+// import "../utils/utils.module.css";
 import Tag from "../components/Tag";
 import ProfileContact from "../components/contact/ProfileContact";
 

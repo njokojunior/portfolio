@@ -1,4 +1,4 @@
-:global(.headingPrimary) {
+/* :global(.headingPrimary) {
   background:var(--gradient-heading);
   background-clip: inherit;
   -webkit-background-clip: text;
@@ -51,10 +51,11 @@
   border-radius: 1rem;
   padding: 2rem;
   position: relative;
-  z-index: 2; /* content above ::before */
+  z-index: 2; /* content above ::before 
 }
+*/
 
-:global(.border-section)::before {
+/* :global(.border-section)::before {
   content: "";
   position: absolute;
   top: 0;
@@ -64,12 +65,12 @@
   z-index: 0;
   background-image: conic-gradient(#e9fac8, #12b886, #bac8ff, #8ce99a);
   border-radius: 1rem;
-}
+}  */
 
 
 /* GRID */
 
-:global(.grid){
+/* :global(.grid){
   margin-top: 3.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -102,4 +103,4 @@
 :global(.grid) :global(.tags){
   display: flex; 
   gap: 1rem;   
-}
+} */

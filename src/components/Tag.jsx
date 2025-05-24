@@ -1,5 +1,5 @@
 // import styles from './Tag.module.css'
-import "../utils/utils.module.css";
+// import "../utils/utils.module.css";
 
 function Tag({children, color, bgColor}) {
     return (
